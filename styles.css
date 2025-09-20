@@ -1,0 +1,53 @@
+/* div,li{
+    display: flex;
+    flex-direction: row;
+    width:10%;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.delbtn{
+    background-color: rgb(24, 75, 207);
+} */
+body{
+    text-align:center;
+}
+.btn{
+    height: 150px;
+    width: 150px;
+
+    border-radius:20%;
+    border:10px solid black;
+    margin:2.5rem;
+
+
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+
+
+}
+.red{
+    background-color:#d95980;
+}
+.yellow{
+    background-color:#f99b45;
+}
+.green{
+    background-color: #63aac0;
+}
+.purple{
+    background-color:#819ff9;
+}
+.gameflash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}
+h3{
+    
+    text-align: end;
+    font-size:25px;
+    margin-right:40px;
+}
